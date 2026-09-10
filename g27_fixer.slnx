@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="g27_fixer/g27_fixer.vcxproj" Id="1ca88410-1c80-4c52-ac34-c314c9bdf7cd" />
+</Solution>

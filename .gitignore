@@ -1,0 +1,46 @@
+# ==========================================
+# Visual Studio Temporary Files & User State
+# ==========================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# Build Output & Intermediate Files
+# ==========================================
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Object files and compiler artifacts
+*.obj
+*.o
+*.ilk
+*.pdb
+*.tlog
+*.idb
+*.ipch
+*.pch
+*.res
+*.log
+*.lastbuildstate
+
+# ==========================================
+# Binary Output (Distribute via GitHub Releases)
+# ==========================================
+*.exe
+*.dll
+
+# ==========================================
+# Backups, Caches & Database Files
+# ==========================================
+*.bak
+*.tmp
+*.cache
+*.VC.db
+*.VC.opendb
