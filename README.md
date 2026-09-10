@@ -67,12 +67,15 @@ Open the **x64 Native Tools Command Prompt for VS** and run:
 git clone https://github.com/sqrtthatall/g27_win11_driver.git
 cd g27_win11_driver
 cl.exe /O2 /MT /DUNICODE /D_UNICODE main.cpp /link /SUBSYSTEM:WINDOWS /OUT:g27_driver_win11.exe
+```
 
 ### Option B: MinGW-w64 (GCC)
 
+```bash
 git clone https://github.com/sqrtthatall/g27_win11_driver.git
 cd g27_win11_driver
 g++ -O3 -municode -mwindows -static main.cpp -lsetupapi -lhid -lshell32 -lgdi32 -luser32 -ldwmapi -o g27_driver_win11.exe
+```
 
 (The /MT and -static flags embed the runtime library directly into the
 executable, allowing it to run out-of-the-box on clean Windows 11 installs
